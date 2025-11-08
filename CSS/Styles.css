@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,600;1,400&display=swap');
+
+
+body{
+    background-color: black;
+}
+
+.nav_title {
+    color: white;
+    font-size: 32px;
+}
+
+.nav_title span:nth-child(-n+3) {
+    color: #FD3411;
+}
+
+.nav_link{
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 32px;
+}
+.nav_items{
+    list-style: none;
+}
+
+.nav_links{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.nav_menu{
+    margin-left: auto;
+    cursor: pointer;
+    display: none;
+}
+
+.nav_img{
+    display: block;
+    width: 30px;
+}
+
+.hero_text {
+    font-family: 'Instrument Sans', sans-serif;
+    color: white;
+    font-size: 72px;
+    padding: 46px;
+}
+
+.hero_button {
+    margin-top: 30px;
+    padding: 16px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    background-color: #CCCBCB;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.nav{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 36px;
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+.nav_close{
+    display: var(--show, none);
+}
+
+/* Para que funcione el JS Menu */
+
+@media (max-width: 768px) {
+    .nav_link {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        background-color: rgba(0, 0, 0, 0.95);
+        width: 55%;
+        height: auto;
+        padding: 40px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        border-radius: 12px 0 0 12px;
+        transition: right 0.3s ease-in-out;
+        z-index: 100;
+    }
+
+    .nav_link--show {
+        right: 0;
+    }
+
+    .nav_menu {
+        display: block;
+        z-index: 200;
+        position: fixed;
+        top: 30px;
+        right: 30px;
+        width: 25px;
+        cursor: pointer;
+        transition: opacity 0.3s ease;
+    }
+
+    .nav_link--show ~ .nav_menu {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .nav_close {
+        display: none;
+        position: fixed;
+        top: 30px;
+        right: 30px;
+        width: 20px;
+        cursor: pointer;
+        z-index: 300;
+    }
+
+    .nav_link--show .nav_close {
+        display: block;
+    }
+}
+
+
+
