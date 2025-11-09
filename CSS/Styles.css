@@ -269,6 +269,12 @@ body{
     margin: 0;       
     line-height: 1.65;
     font-size: 18px;
+    
+    .benefit {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    }
 }
 
 /* ---------------------------  Para que funcione el JS Menu --------------------------- */
