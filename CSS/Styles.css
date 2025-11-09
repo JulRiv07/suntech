@@ -79,6 +79,7 @@ body{
 
 /*--------------------------------- What? ---------------------------------*/
 
+
 .What{
     color: white;
     max-width: 900px;
@@ -99,7 +100,36 @@ body{
 
 /*--------------------------------- How? ---------------------------------*/
 
+.image-container2 {
+    position: relative;
+    width: 100%;
+}
 
+.background-image2 {
+    width: 100%;
+    height: auto;
+}
+
+.image-text2 {
+    position: absolute;
+    top: 65%;
+    left: 55%;
+    color: white;
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+.image-text2 h2 {
+    font-size: 55px;
+    margin: 0;
+}
+
+.how_paragraph {
+    color: white;
+    max-width: 900px;
+    font-family: 'Instrument Sans', sans-serif;
+    padding: 16px;
+    font-size: 28px;
+}
 
 /*--------------------------------- For? ---------------------------------*/
 
@@ -122,13 +152,8 @@ body{
 }
 
 .image-text h2 {
-    font-size: 70px;
+    font-size: 65px;
     margin: 0;
-}
-
-.image-text p {
-    font-size: 20px;
-    margin-top: 10px;
 }
 
 .for_paragraph {
@@ -137,6 +162,76 @@ body{
     font-family: 'Instrument Sans', sans-serif;
     padding: 16px;
     font-size: 28px;
+}
+
+/*--------------------------------- Types ---------------------------------*/
+.type{
+    padding: 40px;
+    color: white;
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+.container_type{
+    background: #514B4B;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;        
+    padding: 20px;     
+    border-radius: 10px;
+}
+
+.type_title h2{
+    margin: 0;        
+    font-size: 36px;
+}
+
+.type_image{
+    width: 100%;
+    display: block;   
+    border-radius: 6px;
+}
+
+.type_paragraph{
+    margin: 0;       
+    line-height: 1.65;
+    font-size: 18px;
+}
+
+/*---------------------------- HowFunct ---------------------------------*/
+
+.howfunct{
+    color: white;
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+.image-container3 {
+    position: relative;
+    width: 100%;
+}
+
+.background-image3 {
+    width: 100%;
+    height: auto;
+}
+
+.image-text3 {
+    position: absolute;
+    top: 75%;
+    left: 55%;
+    color: white;
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+.image-text3 h2 {
+    font-size: 55px;
+    margin: 0;
+}
+
+.howfunct_paragraph{
+    padding: 40px;
+    margin: 0;       
+    line-height: 1.65;
+    font-size: 18px;
 }
 
 /* ---------------------------  Para que funcione el JS Menu --------------------------- */
