@@ -81,6 +81,12 @@ body{
     cursor: pointer;
 }
 
+.imageHero img{
+    filter: saturate(1.25) contrast(1.12) brightness(1.06);
+    transition: filter .3s ease, transform .3s ease;
+    will-change: filter, transform;
+}
+
 /*--------------------------------- What? ---------------------------------*/
 
 
@@ -579,24 +585,23 @@ body{
 
     .types_track{
         display: flex;
-        gap: 24px;                      /* Debe coincidir con GAP del JS */
+        gap: 24px;                      
         transition: transform .45s ease;
         will-change: transform;
     }
 
-    /* 1 tarjeta ocupa todo el viewport del slider */
+    
     .types_viewport .container_type{
         flex: 0 0 100%;
         max-width: 100%;
         box-sizing: border-box;
 
-        /* Mejora visual interna */
         padding: 32px 48px;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 16px;
-        background: transparent;        /* el fondo ya lo pone .types_viewport */
+        background: transparent;        
     }
 
     .type_h3{
@@ -625,7 +630,6 @@ body{
         text-align: justify;
     }
 
-    /* Flechas dentro, centradas verticalmente */
     .types_arrow{
         position: absolute;
         top: 50%;
@@ -659,6 +663,42 @@ body{
     .types_viewport, .types_track{ display:block; }
 }
 /*................................. Responsive ...................................*/ 
+
+@media (min-width: 992px){
+
+    .hero_button{
+        padding: 14px 28px;
+        font-size: 16px;
+        background: #CCCBCB;
+        color: black;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .imageHero img{
+        filter: saturate(1.25) contrast(1.12) brightness(1.06);
+        transition: filter .3s ease, transform .3s ease;
+        will-change: filter, transform;
+    }
+
+    .imageHero img[alt="Sol inicio"] {
+        display: block;  
+        width: 40%;            
+        
+    }
+
+    .imageHero img[alt="Sol abajo"] {
+        right: 0;
+        bottom: 0;
+        display: block;
+        margin-left: auto;     
+        width: 40%;            
+        transform: translate(0, 100%);
+        position: absolute;
+    }
+
+}
 
 @media (min-width:768px){
     .footer_container{ grid-template-columns:1fr 2fr; text-align:left; }
