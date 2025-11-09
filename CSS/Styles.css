@@ -115,7 +115,7 @@ body{
     width: 100%;
 }
 
-.background-image2 {
+.background-image {
     width: 100%;
     height: auto;
 }
@@ -150,7 +150,9 @@ body{
 
 .background-image {
     width: 100%;
+    /* height: auto; */
     height: auto;
+    display: block;
 }
 
 .image-text {
@@ -175,7 +177,7 @@ body{
 }
 
 /*--------------------------------- Types ---------------------------------*/
-/* Base móvil: tu estilo actual */
+
 .type{ 
     padding:40px; 
     color:#fff; 
@@ -226,9 +228,10 @@ body{
 .image-container3 {
     position: relative;
     width: 100%;
+    margin: 0 auto;
 }
 
-.background-image3 {
+.background-image {
     width: 100%;
     height: auto;
 }
@@ -350,12 +353,10 @@ body{
 }
 
 .curious_image{
-    width: 95%;
-    padding: 20px;
+    width: 100%;
 }
 
 .curious_image:hover{
-    transform: scale(1.1);
     filter: brightness(1.2) contrast(1.1) saturate(1.5);
 }
 
@@ -664,41 +665,111 @@ body{
 }
 /*................................. Responsive ...................................*/ 
 
-@media (min-width: 992px){
+/*-------------------------------------- hero responsive --------------------------------------*/
+@media (min-width: 992px) {
+
+    .nav_links{
+        color: #fff;
+        text-decoration: none;
+        font-size: 28px;
+    }
+
+    .hero_text {
+        font-family: 'Instrument Sans', sans-serif;
+        color: white;
+        font-size: 120px;
+        word-spacing: 30px;
+    }
 
     .hero_button{
-        padding: 14px 28px;
-        font-size: 16px;
-        background: #CCCBCB;
-        color: black;
-        border: none;
-        border-radius: 8px;
-        cursor: pointer;
+        font-size: 42px;
     }
 
-    .imageHero img{
-        filter: saturate(1.25) contrast(1.12) brightness(1.06);
-        transition: filter .3s ease, transform .3s ease;
-        will-change: filter, transform;
+    .hero_title br {
+        display: none; 
     }
 
+    .imageHero {
+        position: relative;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        background-color: black;
+    }
+    
     .imageHero img[alt="Sol inicio"] {
-        display: block;  
-        width: 40%;            
-        
+        position: absolute;
+        top: 0;
+        left: 0%;
+        width: 48vw;
+        height: auto;
+        object-fit: contain;
+        transform: translate(-8%, -8%);
+        z-index: 1;
+        pointer-events: none;
     }
 
     .imageHero img[alt="Sol abajo"] {
-        right: 0;
-        bottom: 0;
-        display: block;
-        margin-left: auto;     
-        width: 40%;            
-        transform: translate(0, 100%);
         position: absolute;
+        bottom: 0;
+        right: 0;
+        top: 0s;
+        width: 35vw;             
+        height: auto;
+        object-fit: contain;
+        transform: translate(4%, 0);
+        z-index: 1;
+        pointer-events: none;
+    }
+}
+
+/*-------------------------------------- How responsive --------------------------------------*/
+@media (min-width: 992px){
+    .how {
+        display: flex;
+        flex-direction: column;  
+        align-items: center;      
+        justify-content: center;  
+        min-height: 1200px;        
     }
 
+    .image-container2 {
+        position: relative;
+        width: 70%;
+        display: flex;
+    }
+
+    .background-image {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .image-text2 {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        color: white;
+        font-family: 'Instrument Sans', sans-serif;
+    }
+
+    .image-text2 h2 {
+        font-size: 55px;
+        margin: 0;
+    }
+
+    .how_paragraph {
+        color: white;
+        max-width: 900px;
+        font-family: 'Instrument Sans', sans-serif;
+        padding: 16px;
+        font-size: 28px;
+    }
 }
+
+
+/*-------------------------------------- ? --------------------------------------*/
 
 @media (min-width:768px){
     .footer_container{ grid-template-columns:1fr 2fr; text-align:left; }
