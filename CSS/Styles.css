@@ -4,7 +4,7 @@
 body{
     background-color: black;
 }
-
+/*------------------------------------ Nav ------------------------------------*/
 .nav_title {
     color: white;
     font-size: 32px;
@@ -43,6 +43,20 @@ body{
     width: 30px;
 }
 
+.nav{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 36px;
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+.nav_close{
+    display: var(--show, none);
+}
+
+/*--------------------------------- Hero ---------------------------------*/
+
 .hero_text {
     font-family: 'Instrument Sans', sans-serif;
     color: white;
@@ -63,22 +77,11 @@ body{
     cursor: pointer;
 }
 
+/*--------------------------------- What? ---------------------------------*/
 
-.nav{
-    height: 100px;
-    display: flex;
-    align-items: center;
-    padding: 36px;
-    font-family: 'Instrument Sans', sans-serif;
-}
-
-.nav_close{
-    display: var(--show, none);
-}
-
-.about{
+.What{
     color: white;
-    max-width: 950px;
+    max-width: 900px;
     padding: 50px;
     font-family: 'Instrument Sans', sans-serif;
 }
@@ -90,34 +93,53 @@ body{
     text-align: center;
 }
 
-.about_paragraph {
+.What_paragraph {
     font-size: 28px;
 }
 
-.about_main { 
-    padding-top: 80px;
-    display: grid;
-    width: 90%;
-    margin: 0 auto;
-    gap: 16px;
-    overflow: hidden;
-    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+/*--------------------------------- How? ---------------------------------*/
+
+
+
+/*--------------------------------- For? ---------------------------------*/
+
+.image-container {
+    position: relative;
+    width: 100%;
 }
 
-.about_icons {
-    display: grid;
-    gap: 1em;
-    justify-items: center;
-    width: 260px;
-    overflow: hidden;
-    margin: 0 auto;
+.background-image {
+    width: 100%;
+    height: auto;
 }
 
-.about_icon{
-    width: 40px;
+.image-text {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    color: white;
+    font-family: 'Instrument Sans', sans-serif;
 }
 
-/* Para que funcione el JS Menu */
+.image-text h2 {
+    font-size: 70px;
+    margin: 0;
+}
+
+.image-text p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.for_paragraph {
+    color: white;
+    max-width: 900px;
+    font-family: 'Instrument Sans', sans-serif;
+    padding: 16px;
+    font-size: 28px;
+}
+
+/* ---------------------------  Para que funcione el JS Menu --------------------------- */
 
 @media (max-width: 768px) {
     .nav_link {
