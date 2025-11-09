@@ -264,6 +264,36 @@ body{
     margin: 0;
 }
 
+.advantages_paragraph{
+    color: white;
+    font-family: 'Instrument Sans', sans-serif;
+    padding: 40px;
+    gap: 30px;
+}
+
+.benefits {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.benefit {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.benefit_text h3 {
+    font-size: 22px;
+    margin: 0 0 8px;
+}
+
+.benefit_text p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
 /*------------------------------------ Curious ----------------------------------*/
 
 .curious{
@@ -289,7 +319,7 @@ body{
 }
 
 .image-text5 h2 {
-    font-size: 60px;
+    font-size: 50px;
     margin: 0;
 }
 
@@ -302,12 +332,11 @@ body{
 
 .curious_image{
     width: 95%;
-    padding: 40px;
+    padding: 20px;
 }
 
 .curious_image:hover{
     transform: scale(1.1);
-    box-shadow: 0 6px 20px darkorange;
     filter: brightness(1.2) contrast(1.1) saturate(1.5);
 }
 
