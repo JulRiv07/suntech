@@ -146,7 +146,7 @@ body{
 .image-text {
     position: absolute;
     top: 80%;
-    left: 30%;
+    left: 25%;
     color: white;
     font-family: 'Instrument Sans', sans-serif;
 }
@@ -228,6 +228,43 @@ body{
 }
 
 .howfunct_paragraph{
+    padding: 40px;
+    margin: 0;       
+    line-height: 1.65;
+    font-size: 18px;
+}
+
+/*---------------------------- Advantages ---------------------------------*/
+
+
+.advantages{
+    color: white;
+    font-family: 'Instrument Sans', sans-serif;
+}
+.image-container4 {
+    position: relative;
+    width: 100%;
+}
+
+.background-image4 {
+    width: 100%;
+    height: auto;
+}
+
+.image-text4 {
+    position: absolute;
+    top: 80%;
+    right: 60%;
+    color: white;
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+.image-text4 h2 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.advantages_paragraph{
     padding: 40px;
     margin: 0;       
     line-height: 1.65;
