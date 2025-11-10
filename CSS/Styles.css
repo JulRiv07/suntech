@@ -516,6 +516,30 @@ nav{
     font-size:18px;
 }
 
+.github-link {
+    display: inline-flex;         
+    text-decoration: none;
+    outline: none;
+}
+
+.team-list{
+    
+    top: -70px;
+}
+
+.github-link img {
+    width: 26px;
+    height: 26px;
+    margin-right: 8px;
+    vertical-align: middle;
+    filter: brightness(1.1) contrast(1.2);
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.github-link:hover img {
+    transform: scale(1.2);
+    filter: brightness(1.4) contrast(1.4);
+}
 
 
 /* ---------------------------  Para que funcione el JS Menu --------------------------- */

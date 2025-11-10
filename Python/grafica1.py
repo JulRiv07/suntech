@@ -13,7 +13,8 @@ df_sorted = df.sort_values(by='Electricity from solar (TWh)', ascending=False)
 fig = go.Figure(go.Bar(
     x=df_sorted['Entity'],                   
     y=df_sorted['Electricity from solar (TWh)'],  
-    textposition='auto'
+    textposition='auto',
+    marker_color="orange"
 ))
 
 
