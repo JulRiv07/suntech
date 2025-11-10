@@ -195,9 +195,10 @@ body{
 }
 
 .type_title{ 
-    font-size:36px; 
+    font-size:42px; 
     text-align:center; 
     margin:0 0 24px; 
+    color: #FD3411;
 }
 
 .type_h3{ 
@@ -668,16 +669,20 @@ body{
 /*-------------------------------------- hero responsive --------------------------------------*/
 @media (min-width: 992px) {
 
+    .nav_title{
+        padding: 12px;
+        font-size: 36px;
+    }
     .nav_links{
         color: #fff;
         text-decoration: none;
-        font-size: 28px;
+        font-size: 16px;
     }
 
     .hero_text {
         font-family: 'Instrument Sans', sans-serif;
         color: white;
-        font-size: 120px;
+        font-size: 70px;
         word-spacing: 30px;
     }
 
@@ -724,52 +729,121 @@ body{
     }
 }
 
-/*-------------------------------------- How responsive --------------------------------------*/
-@media (min-width: 992px){
-    .how {
-        display: flex;
-        flex-direction: column;  
-        align-items: center;      
-        justify-content: center;  
-        min-height: 1200px;        
+/*-------------------------------------- Responsive --------------------------------------*/
+
+@media (min-width: 992px) {
+
+    /* ---------- Variable ---------- */
+
+    :root{
+        --content-width: min(70vw, 1200px);
+        --section-gap: 48px;
     }
 
-    .image-container2 {
-        position: relative;
-        width: 70%;
-        display: flex;
+    .container.What { 
+        max-width: none; 
+        width: 100%; 
     }
 
-    .background-image {
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
+    /* -----------------------  NAV + HERO  ----------------------- */
+    .nav_title{ padding: 12px; font-size: 36px; }
+    .nav_links{ color:#fff; text-decoration:none; font-size:16px; }
+
+    .hero_text{
+        font-family:'Instrument Sans',sans-serif;
+        color:#fff;
+        font-size:70px;
+        word-spacing:30px;
+    }
+    .hero_button{ font-size:42px; }
+    .hero_title br{ display:none; }
+
+    .imageHero{
+        position:relative;
+        min-height:100vh;
+        display:flex;
+        align-items:center;
+        overflow:hidden;
+        background:#000;
     }
 
-    .image-text2 {
-        position: absolute;
-        top: 80%;
-        left: 50%;
-        color: white;
-        font-family: 'Instrument Sans', sans-serif;
+    .imageHero img[alt="Sol inicio"]{
+        position:absolute; top:0; left:0;
+        width:48vw; height:auto; object-fit:contain;
+        transform:translate(-8%, -8%);
+        z-index:1; pointer-events:none;
+    }
+    .imageHero img[alt="Sol abajo"]{
+        position:absolute; right:0; bottom:0;
+        width:35vw; height:auto; object-fit:contain;
+        transform:translate(4%, 0);
+        z-index:1; pointer-events:none;
     }
 
-    .image-text2 h2 {
-        font-size: 55px;
-        margin: 0;
+    /* -----------------------  Secciones Base  ----------------------- */
+    
+    .What, .how, .for, .advantages, .curious{
+        color:#fff;
+        font-family:'Instrument Sans',sans-serif;
+        display:flex; flex-direction:column;
+        align-items:center; justify-content:flex-start;
+        min-height:auto;
+        padding:60px 0 var(--section-gap);
+        margin-bottom:0;
     }
 
-    .how_paragraph {
-        color: white;
-        max-width: 900px;
-        font-family: 'Instrument Sans', sans-serif;
-        padding: 16px;
-        font-size: 28px;
+    
+    .What .subtitule{
+        width:var(--content-width);
+        margin:0 auto 24px auto;
+        text-align:center;
+        font-size:60px; font-weight:800;
+        box-sizing:border-box;
+    }
+
+    /* -----------------------  Bloques  ----------------------- */
+
+    /* Imágenes de cada sección */
+    .image-container, .image-container2, .image-container3,
+    .image-container4, .image-container5{
+        position:relative;
+        width:var(--content-width);
+        display:flex;
+        margin:0 auto;
+        padding-top:0;
+        box-sizing:border-box;
+    }
+    .background-image{ width:100%; height:auto; border-radius:20px; }
+
+    /* Textos sobre las imágenes */
+    .image-text, .image-text2, .image-text3, .image-text4{
+        position:absolute; top:85%; left:50%;
+        transform:translate(-50%, -50%);
+        text-align:center; font-size:55px;
+    }
+
+    .image-text5{
+        position:absolute; top:85%; left:18%;
+        transform:translate(-50%, -50%);
+        text-align:center; font-size:40px;
+    }
+
+    /* -----------------------  Parrafos  ----------------------- */
+    .What_paragraph,
+    .how_paragraph, .for_paragraph,
+    .howfunct_paragraph,
+    .advantages_paragraph, .curious_paragraph{
+        width:var(--content-width);
+        margin:32px auto 60px auto;
+        padding:0;
+        font-size:20px; line-height:1.6;
+        text-align:justify; font-weight:bold;
+        box-sizing:border-box;
     }
 }
 
 
-/*-------------------------------------- ? --------------------------------------*/
+/*-------------------------------------- Footer --------------------------------------*/
 
 @media (min-width:768px){
     .footer_container{ grid-template-columns:1fr 2fr; text-align:left; }
