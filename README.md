@@ -1,6 +1,6 @@
 # ☀️ SunTech – Energía Solar ☀️
 
-**SunTech** es una página web interactiva y educativa diseñada para divulgar de forma visual, moderna y accesible el funcionamiento, los tipos y las aplicaciones de la **energía solar**.  
+**<span style="color🍊">Sun.</span> Tech** es una página web interactiva y educativa diseñada para divulgar de forma visual, moderna y accesible el funcionamiento, los tipos y las aplicaciones de la **energía solar**.  
 Este proyecto busca crear conciencia sobre el poder del sol como fuente inagotable de energía limpia, combinando ciencia, tecnología y diseño web.
 
 ---
@@ -70,7 +70,7 @@ También cuenta con una barra de navegación fija en la pantalla y un footer al 
 
 ## ⚙️ Instalación y uso
 
-1. Clona el repositorio:
+1. Clonar el repositorio:
    
    ```bash
    git clone https://github.com/tuusuario/SunTech.git
