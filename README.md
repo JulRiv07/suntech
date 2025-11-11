@@ -34,6 +34,8 @@ El sitio está dividido en secciones que explican de manera sencilla los aspecto
 - **Datos curiosos**  
   Sección interactiva con información sorprendente y educativa sobre el sol y su energía.
 
+También cuenta con una barra de navegación fija en la pantalla y un footer al final con información importante.
+
 ---
 
 ## 🧠 Tecnologías utilizadas
