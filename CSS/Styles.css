@@ -505,8 +505,34 @@ nav{
     border-color:#FD3411;
 }
 
-.footer_bottom{
+.footer_bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
     padding:20px 24px;
+
+    .footer_links:hover {
+        color: #FD3411;
+        border-color: #FD3411;
+        text-shadow: 0 0 8px rgba(253,52,17,0.4);
+    }
+
+    .footer_links {
+        display: flex;
+        align-items: center; 
+        gap: 8px; 
+        text-decoration: none;
+        color: white; 
+    }
+
+    .footer_links img {
+        width: 24px; 
+        height: 24px;
+    }
+
+
 }
 
 .footer_copyright{
@@ -520,11 +546,6 @@ nav{
     display: inline-flex;         
     text-decoration: none;
     outline: none;
-}
-
-.team-list{
-    
-    top: -70px;
 }
 
 .github-link img {
