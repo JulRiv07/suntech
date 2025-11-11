@@ -25,17 +25,26 @@ El sitio está dividido en secciones que explican de manera sencilla los aspecto
   - **Energía solar pasiva** – aprovecha la radiación solar sin transformarla directamente.  
   - **Energía solar híbrida** – combina energía solar con otras fuentes renovables.
 
+- **¿Como funcionan?**
+  Explicación de como es que se puede utilizar y como funciona las placas solares
+
+- **Ventajas**
+  Explicacion de varias ventajas que la hacen una buena alternativa y mejor opcion para cuidar el medio ambiente
+  
 - **Datos curiosos**  
   Sección interactiva con información sorprendente y educativa sobre el sol y su energía.
+
+También cuenta con una barra de navegación fija en la pantalla y un footer al final con información importante.
 
 ---
 
 ## 🧠 Tecnologías utilizadas
 
+- **Figma** – Diseño previo a la realización de la página.
 - **HTML5** – estructura semántica del contenido.  
 - **CSS3** – diseño responsive y animaciones visuales.  
 - **JavaScript (ES6)** – efectos dinámicos, slider de tipos de energía y control de interactividad.  
-- **Media Queries** – adaptación entre vista móvil y escritorio.  
+- **Python** – Creacion de graficas y manejo de datasets  
 - **Git & GitHub** – control de versiones y despliegue del proyecto.
 
 ---
@@ -61,7 +70,7 @@ El sitio está dividido en secciones que explican de manera sencilla los aspecto
 
 ## ⚙️ Instalación y uso
 
-1. Clona el repositorio:
+1. Clonar el repositorio:
    
    ```bash
    git clone https://github.com/tuusuario/SunTech.git
