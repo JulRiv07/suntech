@@ -1,6 +1,6 @@
 # ☀️ SunTech – Energía Solar ☀️
 
-**<span style="color🍊">Sun</span>Tech** es una página web interactiva y educativa diseñada para divulgar de forma visual, moderna y accesible el funcionamiento, los tipos y las aplicaciones de la **energía solar**.  
+**<span style="color:orange">Sun</span><span style="color:white">Tech</span>** es una página web interactiva y educativa diseñada para divulgar de forma visual, moderna y accesible el funcionamiento, los tipos y las aplicaciones de la **energía solar**.  
 Este proyecto busca crear conciencia sobre el poder del sol como fuente inagotable de energía limpia, combinando ciencia, tecnología y diseño web.
 
 ---
