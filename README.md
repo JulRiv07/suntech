@@ -25,7 +25,7 @@ El sitio está dividido en secciones que explican de manera sencilla los aspecto
   - **Energía solar pasiva** – aprovecha la radiación solar sin transformarla directamente.  
   - **Energía solar híbrida** – combina energía solar con otras fuentes renovables.
 
-- **¿Cini funcionan?**
+- **¿Como funcionan?**
   Explicación de como es que se puede utilizar y como funciona las placas solares
 
 - **Ventajas**
