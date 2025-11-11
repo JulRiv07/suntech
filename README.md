@@ -1,11 +1,11 @@
-# ☀️ SunTech – Energía Solar
+# ☀️ SunTech – Energía Solar ☀️
 
 **SunTech** es una página web interactiva y educativa diseñada para divulgar de forma visual, moderna y accesible el funcionamiento, los tipos y las aplicaciones de la **energía solar**.  
 Este proyecto busca crear conciencia sobre el poder del sol como fuente inagotable de energía limpia, combinando ciencia, tecnología y diseño web.
 
 ---
 
-## 🌍 Descripción general
+## Descripción general
 
 El sitio está dividido en secciones que explican de manera sencilla los aspectos más relevantes de la energía solar:
 
@@ -20,10 +20,10 @@ El sitio está dividido en secciones que explican de manera sencilla los aspecto
 
 - **Tipos de energía solar**  
   Presenta las variantes principales:
-  - **Energía fotovoltaica** ⚡ – genera electricidad a partir de paneles solares.  
-  - **Energía solar térmica** ♨️ – utiliza colectores para producir calor o vapor.  
-  - **Energía solar pasiva** 🏠 – aprovecha la radiación solar sin transformarla directamente.  
-  - **Energía solar híbrida** 🌬️ – combina energía solar con otras fuentes renovables.
+  - **Energía fotovoltaica** – genera electricidad a partir de paneles solares.  
+  - **Energía solar térmica** – utiliza colectores para producir calor o vapor.  
+  - **Energía solar pasiva** – aprovecha la radiación solar sin transformarla directamente.  
+  - **Energía solar híbrida** – combina energía solar con otras fuentes renovables.
 
 - **Datos curiosos**  
   Sección interactiva con información sorprendente y educativa sobre el sol y su energía.
@@ -40,7 +40,7 @@ El sitio está dividido en secciones que explican de manera sencilla los aspecto
 
 ---
 
-## 🖼️ Diseño y experiencia
+## Diseño y experiencia
 
 - Diseño **totalmente responsive**: optimizado para **móviles, tablets y pantallas grandes**.  
 - Uso de **imágenes reales del sol y energía solar**, con filtros y efectos de luminosidad para una experiencia inmersiva.  
@@ -49,7 +49,7 @@ El sitio está dividido en secciones que explican de manera sencilla los aspecto
 
 ---
 
-## 💡 Características destacadas
+## Características destacadas
 
 - Animaciones suaves y efectos visuales que refuerzan la temática solar.  
 - Transiciones entre secciones sin recargar la navegación.  
@@ -62,5 +62,6 @@ El sitio está dividido en secciones que explican de manera sencilla los aspecto
 ## ⚙️ Instalación y uso
 
 1. Clona el repositorio:
+   
    ```bash
    git clone https://github.com/tuusuario/SunTech.git
