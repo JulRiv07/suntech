@@ -963,10 +963,10 @@ nav{
     }
 
     .image-text2{
-        left: 65%;
+        left: 55%;
         transform: translateX(-50%);
         text-align: center;
-        top: 65%;
+        top: 60%;
     }
     .type_title{
         font-size: 38px;
@@ -980,7 +980,7 @@ nav{
     }
 
     .image-text3{
-        top: 80%;
+        top: 70%;
         left: 34.5%;
         transform: translateX(-50%);
         text-align: center;
