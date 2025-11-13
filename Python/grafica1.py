@@ -19,7 +19,7 @@ fig = go.Figure(go.Bar(
 
 
 fig.update_layout(
-    title='Producción de Electricidad Solar por Región (2021)',
+
     xaxis_title='Región / País',
     yaxis_title='Electricidad (TWh)'
 )

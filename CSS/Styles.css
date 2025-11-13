@@ -448,6 +448,11 @@ nav{
     margin-bottom: 30px;
 }
 
+.graphic{
+    width: 100%;
+    height: 600px;
+}
+
 /*---------------------------------- Footer --------------------------------------*/
 
 .footer{
@@ -545,7 +550,6 @@ nav{
         width: 24px; 
         height: 24px;
     }
-
 
 }
 
@@ -1005,6 +1009,17 @@ nav{
         max-height: 320px;      
         width: 100%;
     }
+
+    .graphic1{
+        width: 100%;
+        height: 470px;
+    }
+
+    .graphic{
+        width: 100%;
+        height: 470px;
+    }
+
 }
 
 /*-------------------------------------- Footer --------------------------------------*/

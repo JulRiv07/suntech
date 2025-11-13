@@ -21,7 +21,6 @@ fig = go.Figure(go.Pie(
 
 
 fig.update_layout(
-    title='Capacidad Solar Instalada por Región (2021)',
     template='plotly_white'
 )
 
