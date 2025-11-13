@@ -15,9 +15,9 @@ nav{
     z-index: 1000;
 }
 
-.nav_title {
+.nav_title h1{
     color: white;
-    font-size: 32px;
+    font-size: 48px;
 }
 
 .nav_title span:nth-child(-n+3) {
@@ -84,11 +84,15 @@ nav{
     font-family: 'Instrument Sans', sans-serif;
     font-weight: 700;
     font-size: 24px;
-    background-color: #CCCBCB;
-    color: black;
-    border: none;
+    background-color: #000;
+    border: solid #FD3411;
     border-radius: 8px;
     cursor: pointer;
+}
+
+.hero_button:hover{
+    transform: scale(1.1);
+    background: rgb(21, 21, 21);
 }
 
 .imageHero img{
@@ -145,9 +149,8 @@ nav{
 
 .how_paragraph {
     color: white;
-    max-width: 900px;
     font-family: 'Instrument Sans', sans-serif;
-    padding: 16px;
+    padding: 40px;
     font-size: 18px;
 }
 
@@ -180,7 +183,6 @@ nav{
 
 .for_paragraph {
     color: white;
-    max-width: 900px;
     font-family: 'Instrument Sans', sans-serif;
     padding: 16px;
     font-size: 18px;
@@ -195,7 +197,7 @@ nav{
 }
 
 .container_type{
-    background:#514B4B; 
+    background:#252424; 
     display:flex; 
     flex-direction:column; 
     gap:24px;
@@ -208,13 +210,14 @@ nav{
     font-size:48px; 
     text-align:center; 
     margin:0 0 24px; 
-    color: #FD3411;
+    color: white;
 }
 
 .type_h3{ 
     font-size:28px; 
     text-align:center; 
     margin:0; 
+    color: #FD3411;
 }
 
 .type_image{ 
@@ -491,6 +494,7 @@ nav{
     color:#f3f4f6;
     line-height:1.6;
     font-weight:300;
+    font-size: 16px;
 }
 
 .footer_links a{
@@ -498,6 +502,7 @@ nav{
     text-decoration:none;
     border-bottom:1px dashed transparent;
     transition:color .2s,border-color .2s;
+    
 }
 
 .footer_links a:hover{
@@ -631,7 +636,7 @@ nav{
         position: relative;
         overflow: hidden;
         border-radius: 16px;
-        background: #514B4B;
+        background: #252424;
         box-shadow: 0 10px 30px rgba(0,0,0,.35);
     }
 
@@ -658,9 +663,9 @@ nav{
 
     .type_h3{
         margin: 0;
-        font-size: 32px;
+        font-size: 36px;
         text-align: center;
-        color: #fff;
+        color: #FD3411;
     }
 
     .type_image{
@@ -723,6 +728,7 @@ nav{
         padding: 12px;
         font-size: 36px;
     }
+
     .nav_links{
         color: #fff;
         text-decoration: none;
@@ -740,8 +746,13 @@ nav{
         font-size: 42px;
     }
 
+    .hero_title, .hero_button{
+        margin-left: 75px;
+    }
+
     .hero_title br {
         display: none; 
+        
     }
 
     .imageHero {
